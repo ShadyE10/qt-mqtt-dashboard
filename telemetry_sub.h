@@ -3,7 +3,7 @@
 
 #include <QObject>
 #include <mosquittopp.h>
-#include <jsoncpp/json/json.h>
+#include <json/json.h>
 
 class Telemetry_sub : public QObject, public mosqpp::mosquittopp
 {
